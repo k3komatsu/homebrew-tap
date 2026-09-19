@@ -14,6 +14,6 @@ class Texflux < Formula
   end
 
   test do
-    assert_match "texflux 0.3.0", shell_output("#{bin}/texflux --version")
+    assert_match "texflux #{version}", shell_output("#{bin}/texflux --version")
   end
 end
