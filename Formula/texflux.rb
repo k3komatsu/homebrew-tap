@@ -1,8 +1,8 @@
 class Texflux < Formula
   desc "TeX-first, indentation-based preprocessor for LaTeX and Beamer"
   homepage "https://github.com/k3komatsu/TeXFlux"
-  url "https://github.com/k3komatsu/TeXFlux/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "3b6b669b89e2973d2b40e98073ad563a1d5e66f9dfd5578a944a9688a1466456"
+  url "https://github.com/k3komatsu/TeXFlux/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "18816b76ce9cacb79a10b3859f188005a5863faf53594004820c80336c0cb44b"
   license "0BSD"
 
   bottle do
