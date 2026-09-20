@@ -7,8 +7,8 @@ class Texflux < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/k3komatsu/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "700ae56c32c888cc5ae95b52c6c144fdeb0d660721a5b3bef3dba71fc5c80a6c"
-    sha256 cellar: :any,                 x86_64_linux: "8b6081df9536b97ecb6d63d96a2add84ecc085159310d94d8be535eb4fbeafed"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "861459384425767861326e0cb1be63036238077f8b5f6262f4b785b256fb4bd4"
+    sha256 cellar: :any,                 x86_64_linux: "7e6f965aed47703cd594fca959dfc47dee58fb632206275e12878064b9e5acb0"
   end
 
   depends_on "dub" => :build
