@@ -5,6 +5,12 @@ class Iqcodec < Formula
   sha256 "4c01521d89c9091082c488af8b3df89017874cd2f8cb16b6471c54660dcf9ad1"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/k3komatsu/tap"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ea600c824f59c91203179bf27e8d1fd1d89781e1472b67006f746f8c049fba1c"
+    sha256 cellar: :any,                 x86_64_linux: "c4b657e3b28b73eb0804e8bce0323e58fae20253f30035d527d5cc9e58be7d72"
+  end
+
   def install
     system "make", "CC=#{ENV.cc}", "iqcodec"
     bin.install "iqcodec"
